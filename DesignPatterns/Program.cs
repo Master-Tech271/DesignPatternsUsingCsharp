@@ -16,7 +16,8 @@ public class Program
         //DesignPatterns.BehaviouralDesignPatterns.MementoDesignPattern.BadExample.Run run = new();
         //DesignPatterns.BehaviouralDesignPatterns.MementoDesignPattern.GoodExample.Run run2 = new();
 
-        DesignPatterns.BehaviouralDesignPatterns.StateDesignPattern.GoodExample.Run statePattern = new();
+        // DesignPatterns.BehaviouralDesignPatterns.StateDesignPattern.GoodExample.Run statePattern = new();
+        DesignPatterns.BehaviouralDesignPatterns.StrategyDesignPattern.GoodExample.Run strategyPattern = new();
     }
 
     private static void SingletonDesignPattern()
