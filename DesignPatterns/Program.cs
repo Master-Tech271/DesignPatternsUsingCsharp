@@ -1,0 +1,29 @@
+﻿
+
+
+using DesignPatterns.SingletonDesignPattern;
+
+public class Program
+{
+    public static void Main(String[] args)
+    {
+        //SingletonDesignPattern();
+        MementoBadExample();
+    }
+
+    private static void MementoBadExample()
+    {
+        //DesignPatterns.BehaviouralDesignPatterns.MementoDesignPattern.BadExample.Run run = new();
+        //DesignPatterns.BehaviouralDesignPatterns.MementoDesignPattern.GoodExample.Run run2 = new();
+
+        DesignPatterns.BehaviouralDesignPatterns.StateDesignPattern.GoodExample.Run statePattern = new();
+    }
+
+    private static void SingletonDesignPattern()
+    {
+        Console.WriteLine("Welcome to Design Patterns Examples.\n\n");
+
+        Console.WriteLine("Singleton Desing Pattern -:");
+        SingletonDesignPattern singletonDesignPattern = new SingletonDesignPattern();
+    }
+}
