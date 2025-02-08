@@ -24,3 +24,9 @@
 		-> It is used to provide a way to iterate over the object without knowing the internal data structure. By using this we can easily change the internal data structure in future without affecting the consumer.
 
 		-> We use this when we have an idea the data structure may change in the future or the class has highly data, so that if there is any need to change it so we can do it without affecting the consumer.
+
+	#Observer Design Pattern
+		-> It is used to notify the object when the state of the object is changed.
+		-> It is used to implement the publish-subscribe model.
+		-> It is used to implement the event handling system.
+

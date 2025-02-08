@@ -18,7 +18,8 @@ public class Program
 
         // DesignPatterns.BehaviouralDesignPatterns.StateDesignPattern.GoodExample.Run statePattern = new();
         // DesignPatterns.BehaviouralDesignPatterns.StrategyDesignPattern.GoodExample.Run strategyPattern = new();
-        DesignPatterns.BehaviouralDesignPatterns.IterationDesignPattern.GoodExample.Run iteratorPattern = new();
+        //DesignPatterns.BehaviouralDesignPatterns.IterationDesignPattern.GoodExample.Run iteratorPattern = new();
+        DesignPatterns.BehaviouralDesignPatterns.ObserverDesignPattern.GoodExample.Run observerDesignPattern = new();
     }
 
     private static void SingletonDesignPattern()
