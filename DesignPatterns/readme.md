@@ -30,3 +30,8 @@
 		-> It is used to implement the publish-subscribe model.
 		-> It is used to implement the event handling system.
 
+	#Command Design Pattern
+		-> It is used to encapsulate a request as an object.
+		-> It is used to parameterize the object with the request.
+		-> It is used to queue the request.
+		-> It is used to support the undo operation.
