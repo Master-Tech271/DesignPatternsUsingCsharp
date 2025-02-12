@@ -20,7 +20,8 @@ public class Program
         // DesignPatterns.BehaviouralDesignPatterns.StrategyDesignPattern.GoodExample.Run strategyPattern = new();
         //DesignPatterns.BehaviouralDesignPatterns.IterationDesignPattern.GoodExample.Run iteratorPattern = new();
         //DesignPatterns.BehaviouralDesignPatterns.ObserverDesignPattern.GoodExample.Run observerDesignPattern = new();
-        DesignPatterns.BehaviouralDesignPatterns.CommandDesignPattern.GoodExample.Run remoteControl = new();
+        //DesignPatterns.BehaviouralDesignPatterns.CommandDesignPattern.GoodExample.Run remoteControl = new();
+        DesignPatterns.BehaviouralDesignPatterns.CommandDesignPattern.Undoable.Run undoable = new();
     }
 
     private static void SingletonDesignPattern()
